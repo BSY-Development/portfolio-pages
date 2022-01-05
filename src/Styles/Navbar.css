@@ -40,43 +40,9 @@ nav ul li a {
   border-radius: 3px;
 }
 
-.checkbtn {
-  color: white;
-  float: right;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
 @media (max-width: 768px) {
-  .checkbtn {
-    display: block;
-  }
-
-  .ul-config {
-    flex-direction: column;
-    height: 25vh;
-    width: 89%;
-  }
-  ul {
-    font-size: 32px;
-    position: fixed;
-    background: rgb(32, 32, 32);
-    top: 5px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-
-  nav ul li {
-    display: block;
-  }
-
-  #check:checked~ul {
-    left: 0;
+  .remove-nav-window {
+    display: none;
   }
 }
 
