@@ -35,19 +35,37 @@ nav ul li {
 }
 
 nav ul li a {
+  border-radius: 3px;
   color: white;
   opacity: 1.0;
-  border-radius: 3px;
 }
 
 @media (max-width: 768px) {
+  .ul-config {
+    width: 35%;
+  }
+}
+
+@media (max-width: 540px) {
+  .ul-config {
+    width: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  .ul-config {
+    width: 0;
+  }
+  .logo-link {
+    width: 100%;
+  }
   .remove-nav-window {
     display: none;
   }
 }
 
-@media (max-width: 320px) {
-  .ul-config {
-    width: 80%;
+/* @media (max-width: 280px) {
+  .logo-link {
+    width: 100px;
   }
-}
+} */
